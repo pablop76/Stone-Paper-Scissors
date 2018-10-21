@@ -1,0 +1,119 @@
+body {
+  background-color: #020202;
+  font-size: 18px;
+}
+.container {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #e7f1ff;
+}
+
+.header {
+  font-size: 1.3em;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.substring {
+  letter-spacing: 1px;
+  margin: 3px 0 0 0;
+  padding: 0;
+}
+.name-player {
+  background-color: transparent;
+  color: #e2e2e2;
+  font-size: 1em;
+}
+.choice-player {
+  width: 270px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+.choice-player__item {
+  cursor: pointer;
+  margin: 0;
+}
+.choice-player__item-img {
+  display: block;
+  border: 1px solid #fff;
+  width: 90px;
+  height: 90px;
+}
+.choice-game {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.choice-game__player,
+.choice-game__pc {
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px 0;
+  background-color: #e9ebc7;
+  border: 1px solid #fff;
+  color: #4d4e39;
+  margin-top: 3px;
+  width: 30%;
+}
+.choice-game__player::after, .choice-game__pc::before {
+  color: #e9ebc7;
+  top: -30px;
+  left: 0;
+  position: absolute;
+}
+.choice-game__player::after {
+  content: "gracz";
+}
+.choice-game__pc::before {
+  content: "komputer";
+}
+.score {
+  display: block;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.score__player,
+.score__pc {
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 30px;
+  padding: 5px 10px;
+}
+.score__fight {
+  display: inline-block;
+  width: 140px;
+  padding: 5px;
+}
+
+.btn {
+  margin: 30px 0 10px 0;
+  width: 80px;
+  letter-spacing: 0.2em;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: #6f7245;
+  border: none;
+  color: #e2e2e2;
+}
+.active {
+  background-color: #A4C639;
+}
+.evenly {
+  color: #00A1F1
+}
+.win {
+  color: #A4C639;
+}
+.lose {
+  color: #E32934
+}

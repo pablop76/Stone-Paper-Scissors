@@ -1,0 +1,15 @@
+{
+  "name": "game-stone-paper-scissors",
+  "version": "1.0.0",
+  "description": "* JavaScript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pablop76",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="container">
+    <header>
+      <h1 class="header">Kamień Papier Nożyce</h1>
+      <p class="substring">Zapraszamy do zabawy</p>
+      <ul class="choice-player">
+        <li class="choice-player__item choice-player_stone"><img src="images/stone.png" alt="kamień" class="choice-player__item-img"></li>
+        <li class="choice-player__item choic-player_paper"><img src="images/paper.png" alt="papier" class="choice-player__item-img"></li>
+        <li class="choice-player__item choice-player_scissiors"><img src="images/scissors.png" alt="nożyce" class="choice-player__item-img"></li>
+      </ul>
+    </header>
+    <section class="choice-game">
+      <div class="choice-game__player"></div>
+      <div class="choice-game__pc"></div>
+    </section>
+    <section class="score">
+      <span class="score__player">0</span>
+      <span class="score__fight">:</span>
+      <span class="score__pc">0</span>
+    </section>
+    <button id="start" class="btn">START</button>
+    <button type="reset"id="reset" class="btn">RESET</button>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
