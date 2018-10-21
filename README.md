@@ -8,7 +8,7 @@
  
 ## Screenshots
 
- [DEMO](http://www./)
+ [DEMO](http://pablop76.github.io/Stone-Paper-Scissors//)
  
  ![image](./images/kpn.jpg)
    
